@@ -2,7 +2,7 @@
 
 ## 개요
 
-본 프로젝트는 **비동기 논블러킹 (Asynchronous Non-blocking I/O)** 웹 서버를 만드는 프로젝트입니다.
+본 프로젝트는 BSD에서 제공하는 `kqueue` 을 사용해 구현한 **싱글 스레드 비동기 논블러킹 (Asynchronous Non-blocking I/O)** 웹 서버를 만드는 프로젝트입니다.
 
 C++ 98 문법을 기반으로 Mac OS에서 동작되며 nginx의 동작과 유사하며 HTTP 1.1을 지원합니다.
 
